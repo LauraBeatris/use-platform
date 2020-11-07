@@ -27,12 +27,6 @@
       "pre-commit": "tsdx lint"
     }
   },
-  "prettier": {
-    "printWidth": 80,
-    "semi": true,
-    "singleQuote": true,
-    "trailingComma": "es5"
-  },
   "name": "use-platform",
   "author": "Laura Beatris",
   "module": "dist/use-platform.esm.js",
