@@ -1,13 +1,14 @@
 import usePlatform from '../src';
+import { renderHook } from '@testing-library/react-hooks';
 
 const platformFlags = ["isIOS", "isLinux", "isWindows", "isAndroid"];
 
 describe('usePlatform', () => {
-  it('should return flag about all platforms support', () => {
-    const payload = usePlatform();
+  it('should support all platforms', () => {
+    const { result } = renderHook(() => usePlatform());
 
-    platformFlags.forEach(() => {
-      expect(payload).toHaveProperty("isIOS");
+    platformFlags.forEach((flag) => {
+      expect(result.current).toHaveProperty(flag);
     })
   });
 });
