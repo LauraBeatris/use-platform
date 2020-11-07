@@ -19,6 +19,9 @@ import isWindows from "is-windows";
  */
 const isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0;
 
+/**
+ * Returns an object with user agent platform flags
+ */
 const usePlatform = (): UsePlatformPayload => {
   const payload = useMemo<UsePlatformPayload>(
     () => ({
