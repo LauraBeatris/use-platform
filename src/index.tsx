@@ -1,11 +1,10 @@
 import { useMemo } from "react";
-
-import { UsePlatformPayload } from "./types";
-
 import isIOS from "is-ios";
 import isLinux from "is-linux";
 import isAndroid from "is-android";
 import isWindows from "is-windows";
+
+import { UsePlatformPayload } from "./types";
 
 /**
  * Modern mac computers return the following navigator: MacIntel
@@ -29,8 +28,9 @@ const usePlatform = (): UsePlatformPayload => {
       isMac,
       isLinux: isLinux(),
       isWindows: isWindows(),
-      isAndroid
-    }), []);
+      isAndroid,
+    }), [],
+  );
 
   return payload;
 };
