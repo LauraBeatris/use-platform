@@ -1,5 +1,5 @@
-import usePlatform from '../src';
-import { renderHook } from '@testing-library/react-hooks';
+import usePlatform from "../src";
+import { renderHook } from "@testing-library/react-hooks";
 
 const platformFlags = ["isIOS", "isLinux", "isWindows", "isAndroid"];
 
