@@ -6,9 +6,9 @@ module.exports = {
   ],
   rules: {
     "react/react-in-jsx-scope": "off",
-    "no-var": {
+    "one-var": [2, {
       const: "never",
-    },
+    }],
   },
   settings: {
     "import/resolver": {
