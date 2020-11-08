@@ -7,10 +7,10 @@
 </p>
 
 [![Author](https://img.shields.io/badge/author-LauraBeatris-F55441?style=flat-square)](https://github.com/LauraBeatris)
-[![Languages](https://img.shields.io/github/languages/count/LauraBeatris/floripamais?color=%23F55441&style=flat-square)](#)
-[![Stars](https://img.shields.io/github/stars/LauraBeatris/floripamais?color=F55441&style=flat-square)](https://github.com/LauraBeatris/floripamais/stargazers)
-[![Forks](https://img.shields.io/github/forks/LauraBeatris/floripamais?color=%23F55441&style=flat-square)](https://github.com/LauraBeatris/floripamais/network/members)
-[![Contributors](https://img.shields.io/github/contributors/LauraBeatris/floripamais?color=F55441&style=flat-square)](https://github.com/LauraBeatris/floripamais/graphs/contributors)
+[![Languages](https://img.shields.io/github/languages/count/LauraBeatris/use-platform?color=%23F55441&style=flat-square)](#)
+[![Stars](https://img.shields.io/github/stars/LauraBeatris/use-platform?color=F55441&style=flat-square)](https://github.com/LauraBeatris/use-platform/stargazers)
+[![Forks](https://img.shields.io/github/forks/LauraBeatris/use-platform?color=%23F55441&style=flat-square)](https://github.com/LauraBeatris/use-platform/network/members)
+[![Contributors](https://img.shields.io/github/contributors/LauraBeatris/use-platform?color=F55441&style=flat-square)](https://github.com/LauraBeatris/use-platform/graphs/contributors)
 
 ## :pushpin: Table of Contents
 
