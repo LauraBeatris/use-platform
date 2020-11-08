@@ -1,7 +1,23 @@
-declare module "is-ios";
+declare module "is-ios" {
+  const isIOS: boolean;
 
-declare module "is-linux";
+  export default isIOS;
+}
 
-declare module "is-android";
+declare module "is-linux" {
+  const isLinux: () => boolean;
 
-declare module "is-windows";
+  export default isLinux;
+}
+
+declare module "is-android" {
+  const isAndroid: boolean;
+
+  export default isAndroid;
+}
+
+declare module "is-windows" {
+  const isWindows: () => boolean;
+
+  export default isWindows;
+}
