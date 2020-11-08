@@ -16,23 +16,20 @@ import { UsePlatformPayload } from "./types";
  * So we should always check for the "MAC" string in order to detect
  * an Mac device
  */
-const isMac = navigator.platform.toUpperCase().includes("MAC");
+const isMac = navigator
+  .platform
+  .toUpperCase()
+  .includes("MAC");
 
 /**
  * Returns an object with user agent platform flags
  */
-const usePlatform = (): UsePlatformPayload => {
-  const payload = useMemo<UsePlatformPayload>(
-    () => ({
-      isIOS,
-      isMac,
-      isLinux: isLinux(),
-      isWindows: isWindows(),
-      isAndroid,
-    }), [],
-  );
-
-  return payload;
-};
+const usePlatform = () => useMemo<UsePlatformPayload>(() => ({
+  isIOS,
+  isMac,
+  isLinux: isLinux(),
+  isWindows: isWindows(),
+  isAndroid,
+}), []);
 
 export default usePlatform;

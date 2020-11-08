@@ -9,6 +9,7 @@ module.exports = {
     "one-var": [2, {
       const: "never",
     }],
+    "@typescript-eslint/explicit-function-return-type": "off",
   },
   settings: {
     "import/resolver": {
