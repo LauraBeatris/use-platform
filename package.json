@@ -22,11 +22,6 @@
   "peerDependencies": {
     "react": ">=16"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "tsdx lint"
-    }
-  },
   "name": "use-platform",
   "author": "Laura Beatris",
   "module": "dist/use-platform.esm.js",
@@ -43,12 +38,13 @@
   "devDependencies": {
     "@jungsoft/eslint-config": "4.0.1",
     "@size-limit/preset-small-lib": "^4.7.0",
+    "@testing-library/react-hooks": "^3.4.2",
     "@types/react": "^16.9.56",
     "@types/react-dom": "^16.9.9",
     "@typescript-eslint/eslint-plugin": "^4.4.1",
     "@typescript-eslint/parser": "^4.4.1",
     "babel-eslint": "^10.1.0",
-    "eslint": "7.11.0",
+    "eslint": "^7.13.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-import-resolver-typescript": "^2.3.0",
     "eslint-plugin-import": "^2.22.1",
@@ -66,7 +62,6 @@
     "typescript": "^4.0.5"
   },
   "dependencies": {
-    "@testing-library/react-hooks": "^3.4.2",
     "is-android": "^1.0.1",
     "is-ios": "^2.0.1",
     "is-linux": "^1.0.1",
