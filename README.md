@@ -6,6 +6,12 @@
   Returns flags to make conditions based on the user-agent platform
 </p>
 
+[![Author](https://img.shields.io/badge/author-LauraBeatris-F55441?style=flat-square)](https://github.com/LauraBeatris)
+[![Languages](https://img.shields.io/github/languages/count/LauraBeatris/floripamais?color=%23F55441&style=flat-square)](#)
+[![Stars](https://img.shields.io/github/stars/LauraBeatris/floripamais?color=F55441&style=flat-square)](https://github.com/LauraBeatris/floripamais/stargazers)
+[![Forks](https://img.shields.io/github/forks/LauraBeatris/floripamais?color=%23F55441&style=flat-square)](https://github.com/LauraBeatris/floripamais/network/members)
+[![Contributors](https://img.shields.io/github/contributors/LauraBeatris/floripamais?color=F55441&style=flat-square)](https://github.com/LauraBeatris/floripamais/graphs/contributors)
+
 ## :pushpin: Table of Contents
 
 * [Installation](#construction_worker-installation)
