@@ -44,6 +44,14 @@ const SignInScreen: React.FC = () => {
 }
 ```
 
+# :bug: Issues
+
+Feel free to **file a new issue** with a respective title and description on the [use-platform](https://github.com/LauraBeatris/use-platform/issues) repository. If you already found a solution to your problem, **I would love to review your pull request**! Have a look at our [contribution guidelines](https://github.com/LauraBeatris/use-platform/blob/master/CONTRIBUTING.md) to find out about the coding standards.
+
+# :tada: Contributing
+
+Check out the [contributing](https://github.com/LauraBeatris/use-platform/blob/master/CONTRIBUTING.md) page to see the best places to file issues, start discussions and begin contributing.
+
 # :closed_book: License
 
 Released in 2020
