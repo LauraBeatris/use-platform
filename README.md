@@ -6,6 +6,13 @@
   Returns flags to make conditions based on the user-agent platform
 </p>
 
+# :pushpin: Table of Contents
+
+* [Installation](#construction_worker-installation)
+* [Found a bug? Missing a specific feature?](#bug-issues)
+* [Contributing](#tada-contributing)
+* [License](#closed_book-license)
+
 ## :construction_worker: Installation
 
 ### via npm
