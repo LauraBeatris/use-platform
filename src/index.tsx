@@ -17,7 +17,7 @@ import isWindows from "is-windows";
  * So we should always check for the "MAC" string in order to detect
  * an Mac device
  */
-const isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0;
+const isMac = navigator.platform.toUpperCase().includes("MAC");
 
 /**
  * Returns an object with user agent platform flags
