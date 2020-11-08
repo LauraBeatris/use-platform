@@ -1,5 +1,6 @@
-import usePlatform from "../src";
 import { renderHook } from "@testing-library/react-hooks";
+
+import usePlatform from "../src";
 
 const platformFlags = ["isIOS", "isLinux", "isWindows", "isAndroid"];
 
@@ -9,6 +10,6 @@ describe("usePlatform", () => {
 
     platformFlags.forEach((flag) => {
       expect(result.current).toHaveProperty(flag);
-    })
+    });
   });
 });
